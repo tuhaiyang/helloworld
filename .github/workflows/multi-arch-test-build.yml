@@ -1,9 +1,7 @@
-name: Test Build
+name: Start build ssr+  two platforms by wk
 
 on:
-  pull_request:
-    paths-ignore:
-      - '**.md'
+ workflow_dispatch:
 
 jobs:
   build:
